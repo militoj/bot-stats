@@ -1,0 +1,4 @@
+formatter.name: pretty
+suites:
+  stats_suite:
+    namespace: Stats

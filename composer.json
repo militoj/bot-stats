@@ -1,0 +1,12 @@
+{
+    "require": {
+        "phpspec/phpspec": "^2.4",
+        "seagoj/devtools": "dev-master"
+    },
+    "autoload": {
+      "psr-4": {
+        "Stats\\": ".",
+        "Stats\\Service\\": "Services"
+      }
+    }
+}

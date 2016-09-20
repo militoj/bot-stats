@@ -1,0 +1,44 @@
+header {
+  background-color: blue;
+  justify-content: center;
+  display: flex;
+}
+main {
+  background-color: red;
+  flex: 1;
+  min-height: 20vh;
+  min-width: 30em;
+}
+nav {
+  background-color: green;
+  order: -1;
+}
+aside {
+  background-color: yellow;
+}
+footer {
+  background-color: orange;
+  justify-content: center;
+  display: flex;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.layout-container{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+nav, aside{
+  flex: 0 0 12em;
+}
+th {
+  font-weight: bold;
+}
+td {
+  color: white;
+}
+tbody tr:hover {
+  background-color: purple;
+}
